@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Claiborne's Cash Register</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="cash.js"></script> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cash.css">
+</head>
+<body>
+    
+    <!-- 
+        This div contains all the headings, instructions, and buttons shown in the program
+    -->
+    <div class="buttons">
+        <h1>Welcome to the Cash Register!</h1>
+        <p>To get started, click Scan() to begin scanning items. Click Print() to print out the total.</p>
+        <p>Click Remove() to remove an item. Click Edit() to change the value of an item.</p>
+        <p>You may also press the corresponding number-row button to access the functions.</p>
+        <p>You can scan multiple sets of items, and the total will update. </p>
+        <button class="w3-button" id="scan">1. Scan()</button>
+        <button class="w3-button" id="print">2. Print()</button>
+        <button class="w3-button" id="remove">3. Remove()</button>
+        <button class="w3-button" id="edit">4. Edit()</button>
+
+
+    <!-- 
+        This div is the table in which the output is shown. It changes dynamically via jquery code
+    -->
+    <div class="output">
+        <table id="out_table">
+            <tr>
+                <th>Item ID</th> <th>Cost</th>
+            </tr>
+        </table>
+    </div>
+    
+
+    <!-- 
+        This div is for my top-of-page button in the bottom right side of the screen.
+    -->
+    <div class="top_button">
+        <a href="#top"> <img src="up_arrow.png" alt="Top Of Page"> </a>
+    </div>
+</body>
+</html>

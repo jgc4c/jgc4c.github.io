@@ -1,0 +1,78 @@
+/*
+Color-Pallete:
+
+    dark-purple:     #242038ff;
+    amethyst:        #9067c6ff;
+    tropical-indigo: #8d86c9ff;
+    french-gray:     #cac4ceff;
+    linen:           #f7ece1ff;
+    rose-quartz:     #B0A1BA;
+    english-violet:  #443850;
+*/
+
+body {
+    background-color: #cac4ceff;
+}
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+.buttons h1{
+    font-family: 'Sixtyfour';
+    color: #443850;
+}
+
+.w3-button {
+    background: #443850;
+    color: #f7ece1ff;
+    border-radius: 10px;
+}
+
+.output {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.output table {
+    border: 3px solid #242038ff;
+}
+
+.output td {
+    border: 2px solid #242038ff;
+    padding: 10px;
+}
+
+.output th {
+    width: 500px;
+    text-align: center;
+}
+
+.output tr:nth-child(even) {
+    background-color: #B0A1BA;
+}
+
+#col_1 {
+    text-align: center;
+}
+
+#col_2 {
+    text-align: right;
+}
+
+#total_col {
+    text-align: right;
+}
+
+.top_button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.top_button img {
+    width: 75px;
+    cursor: pointer;
+}
